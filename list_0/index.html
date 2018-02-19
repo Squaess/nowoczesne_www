@@ -3,37 +3,45 @@
   <head>
     <style>
 
+      p {
+        font-weight: bold;
+      }
+
+      h1 {
+        margin-left: 13px;
+        margin-bottom: 0px;
+      }
+
       #content {
-        width: 1000px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
         background-color: #F0F0F1;
         color: black;
+        padding: 20px;
       }
 
       .square{
         float: left;
-        width: 460px;
-        margin: 20px;
+        width: 380px;
+        margin: 10px;
       }
 
       #robie {
-        margin-top: 3px;
-        font-size: 50px;
+        padding: 13px;
+        font-size: 45px;
         background-color: black;
         color: white;
       }
 
       #lubie {
         background-color: orange;
-        margin-top: 3px;
         padding: 20px;
       }
 
       #adres {
-        width: 960px;
-        margin: 20px;
-        padding: 20px;
+        width: 780px;
+        margin: 10px;
       }
 
       #adres2 {
@@ -41,6 +49,7 @@
         color: white;
         font-size: 24px;
         margin-top: 3px;
+        padding: 13px;
       }
 
     </style>
@@ -53,14 +62,14 @@
       <h1>Jan Kowalski</h1>
 
       <div class="square">
-        Co robię?
+        <p>Co robię?</p>
         <div id="robie">
           Jestem studentem Informatyki WPPT
         </div>
       </div>
 
       <div class="square">
-        Co lubię robić?
+        <p>Co lubię robić?</p>
         <ul id="lubie">
           <li>pływać</li>
           <li>czytać</li>
@@ -70,13 +79,29 @@
       </div>
       <div style="clear: both;"></div>
       <div id="adres">
-        Adres:
+        <p>Adres:</p>
         <div id="adres2">
           Droga Mleczna; układ słoneczny (taka mała gwiazdka
           klasy G2V w wewnętrznej części Ramienia Oriona); trzecia
           planeta od słońca; kontynent Europa;
         </div>
       </div>
+      <p style="float: left;">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+          </a>
+        </p>
+
+        <p style="float: left;">
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+          </a>
+        </p>
+        <div style="clear: both;"></div>
     </div>
   </body>
 </html>
