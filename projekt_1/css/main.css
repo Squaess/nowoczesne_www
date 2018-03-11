@@ -1,11 +1,58 @@
-body{
+body {
   background-color:#000;
 }
 
-#container{
-  width:100%;
-  max-width:940px;
-  margin:1em auto 0em auto;
-  background-color:#fff;
-  padding:0 0.5em;
+#container {
+  font-family: 'Lato', sans-serif;
+  color: #DDDDDD;
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(217,8,102);
+}
+
+a:visited {
+  color: rgb(67,65,95);
+}
+
+.rel-img {
+  position: relative;
+  text-align: center;
+}
+
+.rel-img img {
+  width: 100%;
+  height: auto;
+  opacity: 0.60;
+}
+
+.bottom-center {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 10%);
+}
+
+.square {
+  width: 100%;
+  margin: auto;
+}
+
+.square ol {
+  margin-top: 0.5em;
+  list-style-type: disc;
+  padding-left: 1em;
+}
+
+.square h4 {
+  padding: 1em 2em 1em 2em;
+  margin-bottom: 0em;
+  background: #4E3940;
 }
