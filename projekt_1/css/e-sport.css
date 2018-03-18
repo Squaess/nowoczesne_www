@@ -128,3 +128,7 @@ li> ul > li:last-of-type {
   height: auto;
   margin: auto;
 }
+
+.toTrigger {
+  text-decoration: underline;
+}
