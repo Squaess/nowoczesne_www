@@ -1,0 +1,27 @@
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid green;
+}
+
+.container {
+    max-width: 300px;
+}
+
+.flaga {
+  position: relative;
+  width: 100%;
+  padding-bottom: 12.5%;
+  margin: auto;
+  background-color: #D4213D;
+}
+
+.flaga .biale {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: #E9E8E7;
+}
