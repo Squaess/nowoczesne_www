@@ -8,14 +8,15 @@
 }
 
 .container {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .flaga {
   position: relative;
-  width: 100%;
-  padding-bottom: 12.5%;
+  width: 80%;
+  height: auto;
   margin: auto;
+  padding-bottom: 50%;
   background-color: #D4213D;
 }
 
