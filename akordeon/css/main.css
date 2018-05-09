@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+a {text-decoration: none; color: #000;}
+
+#container{
+  width: 100%;
+  max-width:720px;
+  margin: 1em auto;
+  padding: 0.5em;
+  background: #f9f9ff;
+}
+
+body style{
+  display: block;
+  white-space: pre;
+  border: solid 1px #555;
+  color: white;
+  padding: 1em;
+}
+
+.centered{
+  text-align: center;
+}
+
+h1, h2{color:#000053;}
+
+.acc-card{
+  xborder: 1px solid #ccc;
+  margin-bottom: 0.5em;
+  background: #cccce8;
+  padding:0.5em;
+}
+
+.acc-card header {
+  margin-top:0;
+  margin-bottom:0;
+  font-size:1.5em;
+}
+.acc-card .infopanel{
+  display: none;
+  background: #fff;
+  padding:0.5em;
+  margin-top:0.5em;
+  transition: opacity 1s ease-out;
+}
+.label {
+  border-radius: 0.2em;
+  padding:0 0.25em;
+  color: #fff;
+  background:#6666b9;
+}
+
+.secondary{background:#ffff66;color:#000;}
