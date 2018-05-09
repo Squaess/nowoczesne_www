@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pl">
   <head>
     <meta charset="utf-8">
@@ -7,19 +7,44 @@
     <meta name="author" content="Bartosz Banasik"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <script src="scripts/navigation.js"></script>
   </head>
   <body>
+    <div id="container">
+      <div id="myTopnav" class="topnav">
+        <span class="active">Strona główna</span>
+        <span class="subspan" onclick="redir('index.php')">Strona głowna</span>
 
-    <nav id="primary_nav">
+        <div class="dropdown">
+          <span onclick="showSubList('edu')" class="subspan">Moja Edukacja</span>
+          <ul class="sublist dropdown-content" id="edu">
+            <li><a href="http://lo.olesno.pl/">Moje Liceum</a></li>
+            <li><a href="sub_sites/semestr1.php">Semestr I</a></li>
+            <li><a href="sub_sites/semestr2.php">Semestr II</a></li>
+            <li><a href="sub_sites/semestr3.php">Semestr III</a></li>
+            <li><a href="sub_sites/semestr4.php">Semestr IV</a></li>
+            <li><a href="sub_sites/semestr5.php">Semestr V</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <span onclick="showSubList('hobby')" class="subspan">Moje Hobby</span>
+          <ul class="sublist dropdown-content" id="hobby">
+            <li><a href="sub_sites/muzyka.php">Muzyka</a></li>
+            <li><a href="sub_sites/e-sport.php">E-sport</a></li>
+            <li><a href="sub_sites/ksiazki.php">Książki</a></li>
+          </ul>
+        </div>
+        <span class="icon" onclick="myFunction()">☰</span>
+      </div><!-- topnav -->
 
-      <ul>
-        <li><a href="">Jeden</a></li>
-        <li><a href="">Dwacośtam</a></li>
-        <li><a href="">Trzycośtam</a></li>
-        <li><a href="">Czterycośtam</a></li>
-      </ul>
-
-    </nav>
-
+      <div class="help">
+        <h1>alskdjalksdjlaksjdaskld</h1>
+        <p>kasjdhkjashdkjahsdkjahskdjhasd
+        alksdjhaksjdhkajshdkjashdkjas
+      daksdjhaksjdhkajshdkjashdkja
+    dkajhdkajshdkjashdkjhaskjdhajkshdkjashdjka
+  djkasjdhkajhdkajhdjkashd</p>
+      </div>
+    </div>
   </body>
 </html>
